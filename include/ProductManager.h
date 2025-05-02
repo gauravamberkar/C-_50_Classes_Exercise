@@ -6,8 +6,8 @@
 
 using std::vector;
 using std::unique_ptr; 
-
+using std::make_unique;
 class ProductManager {
     public:
-        static vector<unique_ptr<Product>>createProducts(); 
+        static vector<unique_ptr<Product>>createProducts();       
 };
